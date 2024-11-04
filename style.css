@@ -1,0 +1,116 @@
+/* Base styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #3a86ff;
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+input[type="number"]:focus {
+    border-color: #3a86ff;
+}
+
+button {
+    background-color: #3a86ff;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+
+a {
+    display: block;
+    color: #3a86ff;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 20px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Additional sections (e.g., history, leaderboard) */
+.history, .leaderboard {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f0f4f8;
+    border-radius: 6px;
+    border: 1px solid #e0e6ed;
+    font-size: 1rem;
+}
+
+.history h3, .leaderboard h3 {
+    font-size: 1.25rem;
+    color: #3a86ff;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #d1d5db;
+    color: #555;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
